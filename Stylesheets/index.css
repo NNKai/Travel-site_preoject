@@ -1,0 +1,138 @@
+#container1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEFAF5;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+#container1 .minicontainer1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 50px;
+margin: 20px 0;
+
+}
+
+#container1 .minicontainer1 h1 {
+    margin: 20px 0;
+    }
+
+#container1 .minicontainer2 img {
+    height: 350px;
+    margin-right: 75px;
+}
+
+
+
+button {
+    background-color: #DB7A4E;
+    border-radius: 30px;
+    border: none;
+    max-width: 200px;
+    margin: 20px 0;
+}
+
+button a{
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+     text-align: center;
+    display: inline-block;
+}
+#card1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-right: 40px;
+}
+
+#card1 h2 {
+    padding-right: 30px;
+    color: white;
+}
+
+#card2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+#card2 h2 {
+    padding-right: 30px;
+    color: white;
+}
+
+#card3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding-left: 40px;
+}
+
+#card3 h2 {
+    padding-right: 30px;
+    color: white;
+}
+
+#card1 a img {
+    min-width: 230px;
+    max-width: 250px;
+    min-height: 340px;
+    max-height: 360px;
+    border-radius: 5px;
+    /* border: black solid 1px 20%; */
+    box-shadow: rgb(0 0 0 / 20%) 0 4px 4px;
+}
+
+
+
+#card2 img {
+    min-width: 230px;
+    max-width: 250px;
+    min-height: 340px;
+    max-height: 360px;
+    border-radius: 5px;
+    /* border: black solid 1px 20%; */
+    box-shadow: rgb(0 0 0 / 20%) 0 4px 4px;
+   
+}
+
+#card3 img {
+    min-width: 230px;
+    max-width: 250px;
+    min-height: 340px;
+    max-height: 360px;
+    border-radius: 5px;
+    /* border: black solid 1px 20%; */
+    box-shadow: rgb(0 0 0 / 20%) 0 4px 4px;
+    
+}
+
+#card1 h2 {
+position: absolute;
+    display: flex;
+}
+
+.minicardcontainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}
+
+#card2 h2 {
+    position: absolute;
+        display: flex;
+}
+
+#card3 h2 {
+    position: absolute;
+        display: flex;
+}
+
+/*main body styles ends here*/
+

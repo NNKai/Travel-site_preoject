@@ -1,0 +1,76 @@
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../2.0\ -\ Assets/images/night.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+    /* border: 0; */
+    padding: 20px;
+    box-shadow: 0 0px 15px 14px;
+    margin: 50px;
+    opacity: 95%;
+}
+
+form p {
+    color: white;
+    
+
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    
+}
+
+main h2 {
+    margin: 0px 250px;
+    background-color: gold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+span input {
+    width: 98%;
+}
+
+input {
+    height: 30px;
+}
+
+button {
+    display: flex;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    color: teal;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:rgb(0, 43, 43);
+    color: white;
+}
+
+button a {
+    
+    color: teal;
+    font-weight: bold;
+}
+
+button a:hover {
+    
+    color: white;
+    
+}
+

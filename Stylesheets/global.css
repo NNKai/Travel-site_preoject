@@ -1,0 +1,164 @@
+html {
+    background-color: lightgrey;
+}
+
+body {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1280px;
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    padding-right: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 15px;
+}
+
+.navbar ul span li a{
+    border-bottom: solid #DB7A4E 3px ;
+}
+
+.navbar ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #393939;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.navbar ul li :hover {
+    border-bottom: solid #DB7A4E 3px ;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 100px;
+    color: #335576;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/*header styles ends here*/
+
+h1 {
+    font-weight: 800;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#335576;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color:#335576;
+}
+/*body styles ends here*/
+#container3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FEFAF5;
+    /* margin-top: 60px; */
+    /* padding-top: 20px; */
+    padding: 20px 100px;
+}
+
+
+.hourscontainer {
+    display: flex;
+}
+
+.minihourscontainer span p {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #DB7A4E;
+}
+
+.minihourscontainer p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.minihourscontainer1 span p {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #DB7A4E;
+}
+
+.minihourscontainer1 p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.minihourscontainer2 span p {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #DB7A4E;
+}
+
+.minihourscontainer2 p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.minihourscontainer {
+    margin-right: 30px;
+}
+
+.minihourscontainer1 {
+    margin-right: 30px;
+}
+
+.contact span p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #DB7A4E;
+}
+
+.contact p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0%;
+}
+
+
+#container3 h2 {
+padding-left: 0;
+}
+
+.icons img {
+    height: 30px;
+    padding: 20px 10px;
+}
+
+.icons span img {
+    padding-left: 0;
+}
